@@ -1,0 +1,61 @@
+03.17 8:07 PM
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Deal Hub</title>
+<style>
+body{font-family:Arial;margin:0;background:#f4f4f4}
+header{background:#222;color:white;padding:15px;text-align:center}
+nav{background:#444;padding:10px;text-align:center}
+nav a{color:white;margin:0 10px;text-decoration:none;font-weight:bold}
+.container{padding:20px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:white;border-radius:8px;padding:15px;text-align:center;box-shadow:0 2px 5px rgba(0,0,0,0.2)}
+.card img{max-width:100%;border-radius:6px}
+.btn{display:inline-block;margin-top:10px;padding:10px 15px;background:#28a745;color:white;text-decoration:none;border-radius:5px}
+footer{background:#222;color:white;text-align:center;padding:10px;margin-top:20px}
+</style>
+</head>
+<body><header>
+<h1>Sports Deal Hub</h1>
+<p>Best Sports Products Deals</p>
+</header><nav>
+<a href="#">Home</a>
+<a href="#cricket">Cricket</a>
+<a href="#football">Football</a>
+<a href="#fitness">Fitness</a>
+<a href="#contact">Contact</a>
+</nav><div class="container"><h2 id="cricket">Cricket Products</h2>
+<div class="products"><div class="card">
+<img src="https://via.placeholder.com/200" alt="Cricket Bat">
+<h3>Cricket Bat</h3>
+<p>Lightweight beginner cricket bat.</p>
+<a class="btn" href="https://www.amazon.in/s?k=sports+equipment" target="_blank">Buy Now</a>
+</div><div class="card">
+<img src="https://via.placeholder.com/200" alt="Cricket Ball">
+<h3>Cricket Ball</h3>
+<p>Durable leather cricket ball.</p>
+<a class="btn" href="https://www.amazon.in/s?k=sports+equipment" target="_blank">Buy Now</a>
+</div></div><h2 id="football">Football Products</h2>
+<div class="products"><div class="card">
+<img src="https://via.placeholder.com/200" alt="Football">
+<h3>Football</h3>
+<p>Perfect football for practice.</p>
+<a class="btn" href="https://www.amazon.in/s?k=sports+equipment" target="_blank">Buy Now</a>
+</div><div class="card">
+<img src="https://via.placeholder.com/200" alt="Football Shoes">
+<h3>Football Shoes</h3>
+<p>Comfortable football shoes.</p>
+<a class="btn" href="https://www.amazon.in/s?k=sports+equipment" target="_blank">Buy Now</a>
+</div></div><h2 id="fitness">Fitness Equipment</h2>
+<div class="products"><div class="card">
+<img src="https://via.placeholder.com/200" alt="Dumbbells">
+<h3>Dumbbells</h3>
+<p>Great for home workout.</p>
+<a class="btn" href="https://www.amazon.in/s?k=sports+equipment" target="_blank">Buy Now</a>
+</div></div></div><footer id="contact">
+<p>Contact: your@email.com</p>
+<p>© 2026 Sports Deal Hub</p>
+</footer></body>
+</html>
